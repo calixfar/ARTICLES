@@ -1,4 +1,4 @@
-### HOW TO CREATE CONTEXTS AND SHARE INFORMATION BETWEEN BLOCKS
+### SHARING INFORMATION BETWEEN BLOCKS USING REACT CONTEXTS
 
 This article begins with a simple question, how is it possible to share data betweeen blocks. 
 
