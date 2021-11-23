@@ -14,13 +14,13 @@ The first issue, it is understand how react context work, it should have a provi
 
 ## STEPS 
 
-It is important to know about react context if you do not know it, you can review the next links:
+It is important to know about react context if you do not know it, learn more about this in:
 
 - [Official documentation](https://reactjs.org/docs/context.html#gatsby-focus-wrapper)
 - [A Guide to React Context and useContext() Hook](https://dmitripavlutin.com/react-context-and-usecontext/)
 ### STEP ONE
 
-We should to create the next files into custom app: 
+We should create the next files into custom app: 
 
 ![files](/arquivos/files.png)
 
@@ -29,14 +29,14 @@ Each file has a special function, we will begin speaking of `context.tsx` file.
 ```tsx
 import { createContext } from 'react'
 
-const HeaderContext: any = createContext({})
+const HeaderContext = createContext({})
 
 export default HeaderContext
 ```
 
 Here we simply create the context and export it.
 
-Thereafter we are going to work with the file that contains all our logic wich it is `state.tsx`
+Thereafter we are going to work with the file that contains all our logic which is `state.tsx`
 
 ```tsx
 import Context from './context'
