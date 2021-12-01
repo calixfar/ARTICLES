@@ -24,7 +24,7 @@ We should create the next files into custom app:
 
 ![files](/arquivos/files.png)
 
-Each file has a special function, we will begin speaking of `context.tsx` file.
+Each file has a special function, we will begin speaking of the `context.tsx` file.
 
 ```tsx
 import { createContext } from 'react'
